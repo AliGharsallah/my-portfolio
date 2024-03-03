@@ -1,0 +1,24 @@
+#mainlogo{
+display:felx;
+justify-content: space-between;
+align-items:center;}
+}
+#mainlogo img{
+    hieght:40px;
+    width:40PX;
+}
+#mainlogo p{
+    color:white;
+}
+#navbarlist{
+list-style: none;
+background-color:#241F3E ;
+display: flex;
+justify-content: space-around;
+gap: 30px;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}

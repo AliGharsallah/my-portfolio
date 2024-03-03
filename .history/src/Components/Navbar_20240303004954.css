@@ -1,0 +1,28 @@
+.headercontainer {
+
+    color: white;
+    background-color: #241F3E;
+    display: felx;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headercontainer img {
+    hieght: 40px;
+    width: 40PX;
+}
+
+.headercontainer p {
+    color: white;
+}
+
+#navbarlist {
+    list-style: none;
+    background-color: #241F3E;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

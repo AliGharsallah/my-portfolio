@@ -1,0 +1,19 @@
+#mainlogo{
+display:felx;
+justify-content: flex-start;
+}
+#mainlogo img{
+    hieght:40px;
+    width:40PX;
+}
+#navbarlist{
+list-style: none;
+background-color:#241F3E ;
+display: flex;
+justify-content: space-around;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
