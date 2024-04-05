@@ -27,9 +27,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: space-around;
-    margin-top: 100px;
-    margin-left: 100px;
-    gap:80px;
+    margin: 20px;
     padding-top: 50px;
     padding-left: 50px;
     
@@ -157,13 +155,12 @@ button img {
 
 .right-part {
     
-    height:700px;
-    width:700px;
+    height:600px;
+    width:600px;
     position: absolute;
     background-color:#241F3E;
     box-shadow: 10px 0  10px rgba(0, 0, 0, 0.5);
     margin-top:50px;
-    margin-right:100px;
     justify-self: end; 
     border-radius:50%;
     /* Align to the end (right) of the grid */

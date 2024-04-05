@@ -6,7 +6,6 @@ import twitterlogo from '../assets/icons/twitter.png';
 import telegramlogo from '../assets/icons/telegram.png';
 import instalogo from '../assets/icons/instagram.png';
 import bottomarrow from '../assets/icons/Bottom-arrow.png';
-import portfoiliophoto from '../assets/images/pp.png';
 const Home = () => {
     return (
      
@@ -47,7 +46,7 @@ const Home = () => {
             </div>
 
             <div className='right-part'>
-                <div className='photo-container'><img src={portfoiliophoto} alt="" /></div>
+                <div className='photo-container'><img src="" alt="" /></div>
 
 
             </div>

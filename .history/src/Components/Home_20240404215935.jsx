@@ -6,13 +6,10 @@ import twitterlogo from '../assets/icons/twitter.png';
 import telegramlogo from '../assets/icons/telegram.png';
 import instalogo from '../assets/icons/instagram.png';
 import bottomarrow from '../assets/icons/Bottom-arrow.png';
-import portfoiliophoto from '../assets/images/pp.png';
 const Home = () => {
     return (
-     
-        <div className='global-container'>
-
-        <div className='left-part'>
+     <>
+        <div className='container'>
 
             <div>
                 <span className='Hithere'>
@@ -26,14 +23,14 @@ const Home = () => {
 
             </div>
 
-           <div className="btncontainer">
-                <button className="button52" role="button">
+
+
+                <button class="button52" role="button">
+
                     About Me
                     <img src={bottomarrow} alt="" />
                 </button>
-                <div className='effect'></div>
 
-                </div>
 
                 <div className='social'>
                     <div><img src={linkedinlogo} alt="" /></div>
@@ -45,15 +42,7 @@ const Home = () => {
                 </div>
 
             </div>
-
-            <div className='right-part'>
-                <div className='photo-container'><img src={portfoiliophoto} alt="" /></div>
-
-
-            </div>
-
-            </div>
-            
+            </>
             );
 };
             export default Home;

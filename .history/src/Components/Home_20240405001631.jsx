@@ -6,13 +6,10 @@ import twitterlogo from '../assets/icons/twitter.png';
 import telegramlogo from '../assets/icons/telegram.png';
 import instalogo from '../assets/icons/instagram.png';
 import bottomarrow from '../assets/icons/Bottom-arrow.png';
-import portfoiliophoto from '../assets/images/pp.png';
 const Home = () => {
     return (
      
-        <div className='global-container'>
-
-        <div className='left-part'>
+        <div className='container'>
 
             <div>
                 <span className='Hithere'>
@@ -43,14 +40,6 @@ const Home = () => {
                     <div><img src={instalogo} alt="" /></div>
 
                 </div>
-
-            </div>
-
-            <div className='right-part'>
-                <div className='photo-container'><img src={portfoiliophoto} alt="" /></div>
-
-
-            </div>
 
             </div>
             

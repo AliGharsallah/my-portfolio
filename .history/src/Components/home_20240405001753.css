@@ -1,0 +1,105 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    color:white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    height: 400px;
+    width:85%;   
+    margin: 70px;
+   
+    
+
+}
+.hithere {
+  font-size:44px; 
+  font-weight: 800;
+
+}
+.Hithere{
+   
+    font-size:44px; 
+    font-weight: 800;
+   
+
+}
+.myname {
+   
+    font-size:44px; 
+    color:#FFB81E;
+    font-weight: 800;
+ 
+    
+  }
+  .btncontainer{
+    position:relative;
+    width:200px;
+    height:70px;
+    
+  }
+  .button52 {
+   height:50px;
+   width:100%;
+   background:transparent;
+   border:solid 1px white;
+   z-index:4444;
+   cursor:pointer;
+
+  
+  }
+
+  .effect {
+    position:absolute;
+    transition: 0.5s;
+    top:10px;
+    left:10px;
+    height:100%;
+    width:100%;
+    background:yellow;
+    z-index:-1;
+  }
+
+  
+ 
+  
+  
+
+
+  
+ 
+
+button img{
+    height:56px;
+    width:56px;
+    background-color:transparent;
+
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start; 
+    width:30%;
+}
+.social img{
+    height:30px;
+    width:30px;  
+    margin:10px;
+}
+
+.social div{
+    height:50px;
+    width:50px;
+    background-color:none;
+    border:2px solid white;
+    border-radius:50%;   
+    cursor:pointer;
+}
