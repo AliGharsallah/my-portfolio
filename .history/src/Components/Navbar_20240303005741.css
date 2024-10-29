@@ -1,0 +1,14 @@
+.headercontainer {
+
+    color: white;
+    background-color: #241F3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbarlist{
+    display: flex;
+    list-style-type: none;
+
+}

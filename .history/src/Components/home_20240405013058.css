@@ -1,0 +1,139 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    color:white;
+}
+/*css of global container */
+.global-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:100%;
+    width:900px;
+    padding:100px;
+}
+                        /*css of left part */
+.left-part{
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    height: 600px;
+    width:50%;  
+    margin: 70px;
+   
+    
+
+}
+.hithere {
+  font-size:44px; 
+  font-weight: 800;
+
+}
+.Hithere{
+   
+    font-size:44px; 
+    font-weight: 800;
+   
+
+}
+.myname {
+   
+    font-size:44px; 
+    color:#FFB81E;
+    font-weight: 800;
+ 
+    
+  }
+  .btncontainer{
+    position:relative;
+    background:transparent;
+    width:250px;
+    height:70px;
+    
+  }
+  .button52 {
+    display: flex;
+   justify-content: center;
+   align-items:center;
+   height:100%;
+   color:white;
+   gap:10px;
+   font-weight: 600;
+   font-size: 30px;
+   width:100%;
+   background:transparent;
+   border:solid 1px white;
+   z-index:4444;
+   cursor:pointer;
+   
+
+  
+  }
+
+  .effect {
+    position:absolute;
+    background-color:#6100FF;
+    
+    transition: 0.5s;
+    top:10px;
+    left:10px;
+    height:100%;
+    width:100%;
+    z-index:-1;
+  }
+  .button52:hover + .effect{
+  top:0px;
+  left:0px;
+  }
+
+  
+ 
+  
+  
+
+
+  
+ 
+
+button img{
+    height:34px;
+    width:34px;
+    background-color:transparent;
+
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start; 
+    width:30%;
+}
+.social img{
+    height:30px;
+    width:30px;  
+    margin:10px;
+}
+
+.social div{
+    height:50px;
+    width:50px;
+    background-color:none;
+    border:2px solid white;
+    border-radius:50%;   
+    cursor:pointer;
+}
+            /*css of right part */
+            .right-part{
+                heoght:100%;
+                background:red; 
+                margin:auto;            
+
+
+
+            }

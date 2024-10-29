@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    color:white;
+}
+.headercontainer {
+    margin:20px 25px  10px 30px;
+    color: white;
+    background-color: #241F3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#navbarlist{
+    
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+}
+#navbarlist link{
+    text-decoration: none; 
+}
+.logoclass{
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    padding-left: 30px;
+    border: none; 
+    padding: 0; 
+    background: none; 
+    cursor: pointer; 
+}
+hr{
+    background-color:#6100FF;
+    border: none;
+    width:70%vH;
+    height:2px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.nuitbtn{
+    margin-right: 20px;
+    background-color:#FFB81E;
+    border-radius: 30px;
+    width:47px;
+    height:15px;
+    border: white solid 3.2px;
+    display: flex;
+    justify-content: end; 
+}
+.nuitbtn button{
+    border: none; 
+    padding: 0; 
+    background: none; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: end;
+}
+.nuitbtn img{
+    height:15px;
+    width: 15px;
+    border-radius:10px;
+}

@@ -1,0 +1,32 @@
+.headercontainer {
+
+    color: white;
+    background-color: #241F3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbarlist{
+    
+    list-style-type: none;
+    display: flex;
+    gap: 120px;
+
+}
+#navbarlist a{
+    text-decoration: none;
+    color:white;
+}
+
+.logoclass{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+
+    font-size: 24px;
+    font-family: lato;
+    background-color:red;
+    
+  
+}

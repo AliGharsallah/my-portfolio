@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+
+.headercontainer {
+    margin:10px;
+    color: white;
+    background-color: #241F3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbarlist{
+    
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+
+}
+#navbarlist a{
+    text-decoration: none;
+    color:white;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.logoclass{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    font-size: 24px;
+    font-family: lato;
+    
+  
+}
+button{
+    
+}
