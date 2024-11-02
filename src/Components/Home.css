@@ -299,9 +299,9 @@ button img {
 }
 
 .languageContainer {
-    position: relative;
-    bottom: -300px;
-    left: 622px;
+    position: absolute;
+    top: 610px;
+    right: 40px;
     display: flex;
     align-items: center;
     gap: 3px;
