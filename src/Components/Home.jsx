@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Projects from './Projects.jsx';
 import linkedinlogo from '../assets/icons/linkedin.png';
 import githublogo from '../assets/icons/github.png';
 import twitterlogo from '../assets/icons/twitter.png';
@@ -10,6 +11,7 @@ import portfoiliophoto from '../assets/images/pp.png';
      
         const Home = () => {
             return (
+               <>
                 <div className='global-container'>
         
                     <div className='left-part'>
@@ -30,11 +32,11 @@ import portfoiliophoto from '../assets/images/pp.png';
                         </div>
         
                         <div className='social'>
-                            <div><img src={linkedinlogo} alt="" /></div>
-                            <div><img src={githublogo} alt="" /></div>
-                            <div><img src={twitterlogo} alt="" /></div>
-                            <div><img src={telegramlogo} alt="" /></div>
-                            <div><img src={instalogo} alt="" /></div>
+                            <div><a href="https://www.linkedin.com/in/ali-gharsallah-224477263/"><img src={linkedinlogo} alt="" /></a></div>
+                            <div><a href="https://github.com/AliGharsallah"><img src={githublogo} alt="" /></a></div>
+                            <div><a href="https://twitter.com/"><img src={twitterlogo} alt="" /></a></div>
+                            <div><a href="https://web.telegram.org/"><img src={telegramlogo} alt="" /></a></div>
+                            <div><a href="https://www.instagram.com/"><img src={instalogo} alt="" /></a></div>
                         </div>
                     </div>
         
@@ -61,7 +63,13 @@ import portfoiliophoto from '../assets/images/pp.png';
                         </div>
 
                         </div>
+
+
+                  
                 </div>
+                <Projects/>
+                </>
+            
             );
         };
         

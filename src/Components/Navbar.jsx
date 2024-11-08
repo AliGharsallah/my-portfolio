@@ -11,27 +11,30 @@ const Navbar = () => {
         <>
             <div className="headercontainer">
 
-                
+
                 <Link to="/">
                     <div className="logoclass">
-                    <img src={logo} height="40px" width="40px" alt="" />
-                    <span>Gharsallah</span>
+                        <img src={logo} height="40px" width="40px" alt="" />
+                        <span>Gharsallah</span>
                     </div>
-                    </Link>    
-               
+                </Link>
+
                 <ul id="navbarlist">
-                    <li><Link  to="/" >Home</Link></li>
+                    <li><Link to="/" >Home</Link></li>
                     <li><Link to="/About" >About Me</Link></li>
                     <li><Link to="/projects" >Projects</Link></li>
                     <li><Link to="/contact" >Contact</Link></li>
 
                 </ul>
-                <span className="nuitbtn">
-
-                    <button><img src={moon} alt="" /></button>
-                </span>
+                <div class="toggle-button" onclick="toggleTheme()">
+                        <i class="fas fa-sun icon sun"></i>
+                        <i class="fas fa-moon icon moon"></i>
+                        <div class="toggle-circle"></div>
+                    </div>                
+                    
+                    
             </div>
-            <hr />
+            <hr className="hr-navbar"/>
 
         </>
 

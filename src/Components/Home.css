@@ -17,7 +17,9 @@
     /* Two columns with equal width */
     grid-gap: 10px;
     /* Gap between grid items */
-    height: 500px;
+    height: 560px;
+    padding-bottom: 67px;
+    
 
 
 

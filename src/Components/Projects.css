@@ -1,0 +1,32 @@
+.projects-container{
+    background-color:#241F3E ;
+    
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2%;
+
+
+}
+.project-title{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFB81E;
+    margin-top:2%;
+    margin-left:3%;
+    
+
+
+
+}
+.hr-projects{
+
+    height: 80%;
+    background-color: white;
+    margin-top:30px;
+    margin-left: 10%;
+    
+    
+}
