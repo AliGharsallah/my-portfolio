@@ -30,3 +30,51 @@
     
     
 }
+.projects-container p{
+   position: absolute;
+   bottom:-15%;
+   left:15%;
+   text-decoration: none;
+   font-weight: 400;
+
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    gap:20px;
+   
+    height: 40%;
+    width:60%;
+    margin-top:15%;
+}
+.projects div{
+    height: 90%;
+    width: 30%;
+ background-color: white;
+}
+.projects span {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFEBC5;
+    color:black;
+    width: 100%;
+    height: 18%;
+    outline: 2px solid white;
+    margin-top:-30%;
+}
+.projects button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border:none;
+    margin-top:90%;
+    margin-left: 78%;
+    background-image: url("../assets/icons/Bottom-arrow.png");
+    background-size: cover; /* Ajuste l'image pour remplir le bouton */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; 
+    transform:rotate(-90deg) ;
+}
