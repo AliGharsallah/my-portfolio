@@ -4,7 +4,10 @@ const  Contact=()=>{
     return(
     <div className='contactpage'>
    
-    <div className='contactMe'></div>
+    <div className='contactMe'>
+        <br />
+        <span>Contact Me</span>
+    </div>
     
      <div className='rightrectangle'>
      <div>Email : ali.gharsallah@gmail.com</div>
