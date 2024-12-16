@@ -1,9 +1,17 @@
 import React from 'react';
+import  "../Components/Contact.css"
 const  Contact=()=>{
     return(
-    <div>
-    <p>Contact Page component</p>
-    </div>
+    <div className='contactpage'>
+   
+    <div className='contactMe'></div>
+    
+     <div className='rightrectangle'>
+     <div>Email : ali.gharsallah@gmail.com</div>
+     <div>phone: +21655555555</div>
+     <div>Ali gharsallah</div>
+     </div>
+ </div>
 
     );
 };

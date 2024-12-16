@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Projects from './Projects.jsx';
+import Contact from './Contact.jsx'
 import linkedinlogo from '../assets/icons/linkedin.png';
 import githublogo from '../assets/icons/github.png';
 import twitterlogo from '../assets/icons/twitter.png';
@@ -68,6 +69,7 @@ import portfoiliophoto from '../assets/images/pp.png';
                   
                 </div>
                 <Projects/>
+                <Contact/>
                 </>
             
             );
