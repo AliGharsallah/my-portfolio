@@ -1,5 +1,5 @@
 .contactpage{
-    background-color:blue ;
+    background-color:white ;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -11,7 +11,7 @@
   padding-right:5%;
 }
 .rightrectangle{
-    background-color: #241F3E;
+    background-color: #081B2A;
     display:flex;
     flex-direction:column;
     justify-content: space-around;
@@ -21,8 +21,8 @@
 }
 .rightrectangle div{
     background-color: #FFB81E;
-    height:8%;
-    width: 90%;
+    height: 8%;
+    width: 140%;
     margin-right: 130%;
     display: flex;
     justify-content: center;
@@ -32,7 +32,10 @@
     
 }
 .contactMe{
-    background-color: black;
+   
     height:100vh;
     width:50%;
+}
+.contactMe span {
+    color:#081B2A;
 }
